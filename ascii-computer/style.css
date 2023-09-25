@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2633;
+    overflow: hidden;
+}
+
+.computer {
+    height: 100vh;
+    position: relative;
+    /* font-weight: 700; */
+    font-size: 0.8rem;
+    letter-spacing: 0.06rem;
+    top: 14vh;
+    left: 32vw;
+    margin: auto;
+    background: -webkit-linear-gradient( #40E0D0, #FF8C00, #FF0080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
